@@ -1,0 +1,291 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1684438836080,1325,Get all products,200,OK,Thread Group 1-1,text,true,,11328,126,2,2,https://fakestoreapi.com/products,1113,0,327
+1684438836972,799,Get all products,200,OK,Thread Group 1-2,text,true,,11322,126,2,2,https://fakestoreapi.com/products,798,0,35
+1684438837406,405,Get a single product,200,OK,Thread Group 1-1,text,true,,1100,128,2,2,https://fakestoreapi.com/products/6,405,0,0
+1684438837772,387,Get a single product,200,OK,Thread Group 1-2,text,true,,1100,128,3,3,https://fakestoreapi.com/products/6,387,0,0
+1684438837812,395,Sort results,200,OK,Thread Group 1-1,text,true,,11328,136,3,3,https://fakestoreapi.com/products?sort=desc,393,0,0
+1684438838159,400,Sort results,200,OK,Thread Group 1-2,text,true,,11326,136,3,3,https://fakestoreapi.com/products?sort=desc,399,0,0
+1684438838207,400,Limit results,200,OK,Thread Group 1-1,text,true,,3015,134,3,3,https://fakestoreapi.com/products?limit=5,400,0,0
+1684438837945,798,Get all products,200,OK,Thread Group 1-3,text,true,,11320,126,3,3,https://fakestoreapi.com/products,797,0,24
+1684438838560,390,Limit results,200,OK,Thread Group 1-2,text,true,,3003,134,4,4,https://fakestoreapi.com/products?limit=5,390,0,0
+1684438838607,407,Get all categories,200,OK,Thread Group 1-1,text,true,,767,137,4,4,https://fakestoreapi.com/products/categories,407,0,0
+1684438838743,395,Get a single product,200,OK,Thread Group 1-3,text,true,,1110,128,4,4,https://fakestoreapi.com/products/6,395,0,0
+1684438838950,389,Get all categories,200,OK,Thread Group 1-2,text,true,,755,137,4,4,https://fakestoreapi.com/products/categories,389,0,0
+1684438839139,401,Sort results,200,OK,Thread Group 1-3,text,true,,11328,136,4,4,https://fakestoreapi.com/products?sort=desc,399,0,0
+1684438839014,575,Get products in a specific category,200,OK,Thread Group 1-1,text,true,,2242,144,4,4,https://fakestoreapi.com/products/category/jewelery,575,0,0
+1684438838938,807,Get all products,200,OK,Thread Group 1-4,text,true,,11330,126,4,4,https://fakestoreapi.com/products,806,0,22
+1684438839340,565,Get products in a specific category,200,OK,Thread Group 1-2,text,true,,2234,144,4,4,https://fakestoreapi.com/products/category/jewelery,565,0,0
+1684438839540,397,Limit results,200,OK,Thread Group 1-3,text,true,,3001,134,4,4,https://fakestoreapi.com/products?limit=5,397,0,0
+1684438839593,412,Add new product,200,OK,Thread Group 1-1,text,true,,832,358,5,5,https://fakestoreapi.com/products,412,0,0
+1684438839745,406,Get a single product,200,OK,Thread Group 1-4,text,true,,1104,128,5,5,https://fakestoreapi.com/products/6,406,0,0
+1684438839905,396,Add new product,200,OK,Thread Group 1-2,text,true,,838,358,5,5,https://fakestoreapi.com/products,396,0,0
+1684438839938,400,Get all categories,200,OK,Thread Group 1-3,text,true,,763,137,5,5,https://fakestoreapi.com/products/categories,400,0,0
+1684438840006,404,Update a product,200,OK,Thread Group 1-1,text,true,,830,356,5,5,https://fakestoreapi.com/products/7,404,0,0
+1684438840152,405,Sort results,200,OK,Thread Group 1-4,text,true,,11322,136,5,5,https://fakestoreapi.com/products?sort=desc,404,0,0
+1684438839938,793,Get all products,200,OK,Thread Group 1-5,text,true,,11328,126,5,5,https://fakestoreapi.com/products,792,0,24
+1684438840410,409,Update a product - patch,200,OK,Thread Group 1-1,text,true,,836,358,5,5,https://fakestoreapi.com/products/7,408,0,0
+1684438840338,556,Get products in a specific category,200,OK,Thread Group 1-3,text,true,,2238,144,5,5,https://fakestoreapi.com/products/category/jewelery,556,0,0
+1684438840301,603,Update a product,200,OK,Thread Group 1-2,text,true,,832,356,5,5,https://fakestoreapi.com/products/7,603,0,0
+1684438840557,404,Limit results,200,OK,Thread Group 1-4,text,true,,3009,134,6,6,https://fakestoreapi.com/products?limit=5,404,0,0
+1684438840731,397,Get a single product,200,OK,Thread Group 1-5,text,true,,1096,128,6,6,https://fakestoreapi.com/products/6,397,0,0
+1684438840894,393,Add new product,200,OK,Thread Group 1-3,text,true,,838,358,6,6,https://fakestoreapi.com/products,393,0,0
+1684438840905,396,Update a product - patch,200,OK,Thread Group 1-2,text,true,,834,358,6,6,https://fakestoreapi.com/products/7,396,0,0
+1684438840962,397,Get all categories,200,OK,Thread Group 1-4,text,true,,753,137,6,6,https://fakestoreapi.com/products/categories,397,0,0
+1684438840819,624,Delete a product,200,OK,Thread Group 1-1,text,true,,1104,214,6,6,https://fakestoreapi.com/products/6,624,0,0
+1684438841128,395,Sort results,200,OK,Thread Group 1-5,text,true,,11324,136,6,6,https://fakestoreapi.com/products?sort=desc,394,0,0
+1684438841287,400,Update a product,200,OK,Thread Group 1-3,text,true,,834,356,6,6,https://fakestoreapi.com/products/7,400,0,0
+1684438840939,801,Get all products,200,OK,Thread Group 1-6,text,true,,11328,126,6,6,https://fakestoreapi.com/products,800,0,19
+1684438841301,559,Delete a product,200,OK,Thread Group 1-2,text,true,,1096,214,6,6,https://fakestoreapi.com/products/6,559,0,0
+1684438841523,399,Limit results,200,OK,Thread Group 1-5,text,true,,3009,134,6,6,https://fakestoreapi.com/products?limit=5,399,0,0
+1684438841359,563,Get products in a specific category,200,OK,Thread Group 1-4,text,true,,2236,144,6,6,https://fakestoreapi.com/products/category/jewelery,563,0,0
+1684438841443,592,Get all carts,200,OK,Thread Group 1-1,text,true,,1635,123,7,7,https://fakestoreapi.com/carts,592,0,0
+1684438841687,395,Update a product - patch,200,OK,Thread Group 1-3,text,true,,832,358,7,7,https://fakestoreapi.com/products/7,395,0,0
+1684438841740,392,Get a single product,200,OK,Thread Group 1-6,text,true,,1102,128,7,7,https://fakestoreapi.com/products/6,392,0,0
+1684438841922,397,Get all categories,200,OK,Thread Group 1-5,text,true,,761,137,7,7,https://fakestoreapi.com/products/categories,397,0,0
+1684438841922,401,Add new product,200,OK,Thread Group 1-4,text,true,,838,358,7,7,https://fakestoreapi.com/products,401,0,0
+1684438841861,581,Get all carts,200,OK,Thread Group 1-2,text,true,,1629,123,7,7,https://fakestoreapi.com/carts,581,0,0
+1684438842132,396,Sort results,200,OK,Thread Group 1-6,text,true,,11320,136,7,7,https://fakestoreapi.com/products?sort=desc,395,0,0
+1684438842036,569,Get a single cart,200,OK,Thread Group 1-1,text,true,,832,125,7,7,https://fakestoreapi.com/carts/5,569,0,0
+1684438842082,565,Delete a product,200,OK,Thread Group 1-3,text,true,,1106,214,7,7,https://fakestoreapi.com/products/6,564,0,0
+1684438842323,402,Update a product,200,OK,Thread Group 1-4,text,true,,830,356,7,7,https://fakestoreapi.com/products/7,402,0,0
+1684438841938,856,Get all products,200,OK,Thread Group 1-7,text,true,,11328,126,7,7,https://fakestoreapi.com/products,855,0,20
+1684438842319,560,Get products in a specific category,200,OK,Thread Group 1-5,text,true,,2230,144,7,7,https://fakestoreapi.com/products/category/jewelery,560,0,0
+1684438842528,395,Limit results,200,OK,Thread Group 1-6,text,true,,3005,134,7,7,https://fakestoreapi.com/products?limit=5,395,0,0
+1684438842443,567,Get a single cart,200,OK,Thread Group 1-2,text,true,,838,125,8,8,https://fakestoreapi.com/carts/5,567,0,0
+1684438842725,404,Update a product - patch,200,OK,Thread Group 1-4,text,true,,830,358,8,8,https://fakestoreapi.com/products/7,404,0,0
+1684438842606,570,Limit results,200,OK,Thread Group 1-1,text,true,,1389,131,8,8,https://fakestoreapi.com/carts?limit=5,569,0,0
+1684438842794,406,Get a single product,200,OK,Thread Group 1-7,text,true,,1096,128,8,8,https://fakestoreapi.com/products/6,406,0,0
+1684438842647,570,Get all carts,200,OK,Thread Group 1-3,text,true,,1637,123,8,8,https://fakestoreapi.com/carts,570,0,0
+1684438842879,395,Add new product,200,OK,Thread Group 1-5,text,true,,834,358,8,8,https://fakestoreapi.com/products,395,0,0
+1684438842923,399,Get all categories,200,OK,Thread Group 1-6,text,true,,759,137,8,8,https://fakestoreapi.com/products/categories,399,0,0
+1684438843011,566,Limit results,200,OK,Thread Group 1-2,text,true,,1399,131,8,8,https://fakestoreapi.com/carts?limit=5,566,0,0
+1684438843201,404,Sort results,200,OK,Thread Group 1-7,text,true,,11324,136,8,8,https://fakestoreapi.com/products?sort=desc,404,0,0
+1684438843275,389,Update a product,200,OK,Thread Group 1-5,text,true,,832,356,8,8,https://fakestoreapi.com/products/7,389,0,0
+1684438843130,560,Delete a product,200,OK,Thread Group 1-4,text,true,,1096,214,8,8,https://fakestoreapi.com/products/6,560,0,0
+1684438842937,790,Get all products,200,OK,Thread Group 1-8,text,true,,11328,126,8,8,https://fakestoreapi.com/products,790,0,22
+1684438843176,570,Sort results,200,OK,Thread Group 1-1,text,true,,1637,133,8,8,https://fakestoreapi.com/carts?sort=desc,570,0,0
+1684438843218,570,Get a single cart,200,OK,Thread Group 1-3,text,true,,838,125,8,8,https://fakestoreapi.com/carts/5,570,0,0
+1684438843322,565,Get products in a specific category,200,OK,Thread Group 1-6,text,true,,2238,144,8,8,https://fakestoreapi.com/products/category/jewelery,565,0,0
+1684438843606,403,Limit results,200,OK,Thread Group 1-7,text,true,,3003,134,9,9,https://fakestoreapi.com/products?limit=5,402,0,0
+1684438843664,404,Update a product - patch,200,OK,Thread Group 1-5,text,true,,826,358,9,9,https://fakestoreapi.com/products/7,404,0,0
+1684438843728,392,Get a single product,200,OK,Thread Group 1-8,text,true,,1102,128,9,9,https://fakestoreapi.com/products/6,392,0,0
+1684438843577,562,Sort results,200,OK,Thread Group 1-2,text,true,,1641,133,9,9,https://fakestoreapi.com/carts?sort=desc,562,0,0
+1684438843887,393,Add new product,200,OK,Thread Group 1-6,text,true,,836,358,9,9,https://fakestoreapi.com/products,393,0,0
+1684438843690,596,Get all carts,200,OK,Thread Group 1-4,text,true,,1637,123,9,9,https://fakestoreapi.com/carts,596,0,0
+1684438843747,589,Get carts in a date range,200,OK,Thread Group 1-1,text,true,,1637,163,9,9,https://fakestoreapi.com/carts?startdate=2019-12-10&enddate=2020-10-10,589,0,0
+1684438843788,559,Limit results,200,OK,Thread Group 1-3,text,true,,1397,131,9,9,https://fakestoreapi.com/carts?limit=5,559,0,0
+1684438844009,408,Get all categories,200,OK,Thread Group 1-7,text,true,,757,137,9,9,https://fakestoreapi.com/products/categories,408,0,0
+1684438844120,403,Sort results,200,OK,Thread Group 1-8,text,true,,11326,136,9,9,https://fakestoreapi.com/products?sort=desc,402,0,0
+1684438844069,558,Delete a product,200,OK,Thread Group 1-5,text,true,,1110,214,9,9,https://fakestoreapi.com/products/6,558,0,0
+1684438844280,395,Update a product,200,OK,Thread Group 1-6,text,true,,830,356,9,9,https://fakestoreapi.com/products/7,395,0,0
+1684438844140,569,Get carts in a date range,200,OK,Thread Group 1-2,text,true,,1639,163,9,9,https://fakestoreapi.com/carts?startdate=2019-12-10&enddate=2020-10-10,569,0,0
+1684438843939,798,Get all products,200,OK,Thread Group 1-9,text,true,,11332,126,9,9,https://fakestoreapi.com/products,797,0,24
+1684438844286,562,Get a single cart,200,OK,Thread Group 1-4,text,true,,834,125,9,9,https://fakestoreapi.com/carts/5,562,0,0
+1684438844337,555,Get user carts,200,OK,Thread Group 1-1,text,true,,836,130,9,9,https://fakestoreapi.com/carts/user/2,555,0,0
+1684438844348,565,Sort results,200,OK,Thread Group 1-3,text,true,,1641,133,9,9,https://fakestoreapi.com/carts?sort=desc,565,0,0
+1684438844523,399,Limit results,200,OK,Thread Group 1-8,text,true,,3009,134,9,9,https://fakestoreapi.com/products?limit=5,399,0,0
+1684438844418,570,Get products in a specific category,200,OK,Thread Group 1-7,text,true,,2238,144,10,10,https://fakestoreapi.com/products/category/jewelery,569,0,0
+1684438844676,397,Update a product - patch,200,OK,Thread Group 1-6,text,true,,832,358,10,10,https://fakestoreapi.com/products/7,397,0,0
+1684438844737,395,Get a single product,200,OK,Thread Group 1-9,text,true,,1106,128,10,10,https://fakestoreapi.com/products/6,395,0,0
+1684438844627,559,Get all carts,200,OK,Thread Group 1-5,text,true,,1645,123,10,10,https://fakestoreapi.com/carts,559,0,0
+1684438844709,559,Get user carts,200,OK,Thread Group 1-2,text,true,,844,130,10,10,https://fakestoreapi.com/carts/user/2,558,0,0
+1684438844892,394,Add a new cart,200,OK,Thread Group 1-1,text,true,,811,422,10,10,https://fakestoreapi.com/carts,394,0,0
+1684438844923,388,Get all categories,200,OK,Thread Group 1-8,text,true,,767,137,10,10,https://fakestoreapi.com/products/categories,388,0,0
+1684438844988,413,Add new product,200,OK,Thread Group 1-7,text,true,,838,358,10,10,https://fakestoreapi.com/products,413,0,0
+1684438844849,573,Limit results,200,OK,Thread Group 1-4,text,true,,1393,131,10,10,https://fakestoreapi.com/carts?limit=5,573,0,0
+1684438844913,562,Get carts in a date range,200,OK,Thread Group 1-3,text,true,,1635,163,10,10,https://fakestoreapi.com/carts?startdate=2019-12-10&enddate=2020-10-10,562,0,0
+1684438845132,398,Sort results,200,OK,Thread Group 1-9,text,true,,11326,136,10,10,https://fakestoreapi.com/products?sort=desc,396,0,0
+1684438845073,562,Delete a product,200,OK,Thread Group 1-6,text,true,,1100,214,10,10,https://fakestoreapi.com/products/6,562,0,0
+1684438845268,396,Add a new cart,200,OK,Thread Group 1-2,text,true,,815,422,10,10,https://fakestoreapi.com/carts,396,0,0
+1684438845287,390,Update a cart,200,OK,Thread Group 1-1,text,true,,810,423,10,10,https://fakestoreapi.com/carts/7,390,0,0
+1684438845186,553,Get a single cart,200,OK,Thread Group 1-5,text,true,,830,125,10,10,https://fakestoreapi.com/carts/5,553,0,0
+1684438844938,810,Get all products,200,OK,Thread Group 1-10,text,true,,11320,126,10,10,https://fakestoreapi.com/products,803,0,19
+1684438845402,410,Update a product,200,OK,Thread Group 1-7,text,true,,830,356,10,10,https://fakestoreapi.com/products/7,410,0,0
+1684438845311,560,Get products in a specific category,200,OK,Thread Group 1-8,text,true,,2240,144,10,10,https://fakestoreapi.com/products/category/jewelery,560,0,0
+1684438845530,411,Limit results,200,OK,Thread Group 1-9,text,true,,3009,134,10,10,https://fakestoreapi.com/products?limit=5,411,0,0
+1684438845422,573,Sort results,200,OK,Thread Group 1-4,text,true,,1637,133,10,10,https://fakestoreapi.com/carts?sort=desc,572,0,0
+1684438845476,566,Get user carts,200,OK,Thread Group 1-3,text,true,,838,130,10,10,https://fakestoreapi.com/carts/user/2,566,0,0
+1684438845665,390,Update a cart,200,OK,Thread Group 1-2,text,true,,812,423,10,10,https://fakestoreapi.com/carts/7,390,0,0
+1684438845678,401,Update a cart - patch,200,OK,Thread Group 1-1,text,true,,808,425,10,10,https://fakestoreapi.com/carts/7,401,0,0
+1684438845749,401,Get a single product,200,OK,Thread Group 1-10,text,true,,1108,128,10,10,https://fakestoreapi.com/products/6,401,0,0
+1684438845636,565,Get all carts,200,OK,Thread Group 1-6,text,true,,1633,123,10,10,https://fakestoreapi.com/carts,565,0,0
+1684438845813,400,Update a product - patch,200,OK,Thread Group 1-7,text,true,,834,358,10,10,https://fakestoreapi.com/products/7,400,0,0
+1684438845872,397,Add new product,200,OK,Thread Group 1-8,text,true,,836,358,10,10,https://fakestoreapi.com/products,397,0,0
+1684438845740,567,Limit results,200,OK,Thread Group 1-5,text,true,,1397,131,10,10,https://fakestoreapi.com/carts?limit=5,567,0,0
+1684438845941,395,Get all categories,200,OK,Thread Group 1-9,text,true,,767,137,10,10,https://fakestoreapi.com/products/categories,395,0,0
+1684438846042,399,Add a new cart,200,OK,Thread Group 1-3,text,true,,817,422,10,10,https://fakestoreapi.com/carts,399,0,0
+1684438846056,391,Update a cart - patch,200,OK,Thread Group 1-2,text,true,,818,425,10,10,https://fakestoreapi.com/carts/7,391,0,0
+1684438846151,406,Sort results,200,OK,Thread Group 1-10,text,true,,11320,136,10,10,https://fakestoreapi.com/products?sort=desc,403,0,0
+1684438845995,599,Get carts in a date range,200,OK,Thread Group 1-4,text,true,,1637,163,10,10,https://fakestoreapi.com/carts?startdate=2019-12-10&enddate=2020-10-10,599,0,0
+1684438846080,574,Delete a cart,200,OK,Thread Group 1-1,text,true,,832,211,10,10,https://fakestoreapi.com/carts/6,574,0,0
+1684438846270,393,Update a product,200,OK,Thread Group 1-8,text,true,,828,356,10,10,https://fakestoreapi.com/products/7,393,0,0
+1684438846214,570,Delete a product,200,OK,Thread Group 1-7,text,true,,1108,214,10,10,https://fakestoreapi.com/products/6,570,0,0
+1684438846202,582,Get a single cart,200,OK,Thread Group 1-6,text,true,,832,125,10,10,https://fakestoreapi.com/carts/5,582,0,0
+1684438846441,394,Update a cart,200,OK,Thread Group 1-3,text,true,,808,423,10,10,https://fakestoreapi.com/carts/7,394,0,0
+1684438846307,571,Sort results,200,OK,Thread Group 1-5,text,true,,1641,133,10,10,https://fakestoreapi.com/carts?sort=desc,571,0,0
+1684438846337,562,Get products in a specific category,200,OK,Thread Group 1-9,text,true,,2234,144,10,10,https://fakestoreapi.com/products/category/jewelery,562,0,0
+1684438846558,403,Limit results,200,OK,Thread Group 1-10,text,true,,3013,134,10,10,https://fakestoreapi.com/products?limit=5,403,0,0
+1684438846447,564,Delete a cart,200,OK,Thread Group 1-2,text,true,,836,211,10,10,https://fakestoreapi.com/carts/6,564,0,0
+1684438846594,581,Get user carts,200,OK,Thread Group 1-4,text,true,,830,130,10,10,https://fakestoreapi.com/carts/user/2,581,0,0
+1684438846654,560,Get all users,200,OK,Thread Group 1-1,text,true,,3692,123,10,10,https://fakestoreapi.com/users,560,0,0
+1684438846836,393,Update a cart - patch,200,OK,Thread Group 1-3,text,true,,812,425,10,10,https://fakestoreapi.com/carts/7,393,0,0
+1684438846664,602,Update a product - patch,200,OK,Thread Group 1-8,text,true,,836,358,10,10,https://fakestoreapi.com/products/7,602,0,0
+1684438846900,399,Add new product,200,OK,Thread Group 1-9,text,true,,838,358,10,10,https://fakestoreapi.com/products,399,0,0
+1684438846785,562,Limit results,200,OK,Thread Group 1-6,text,true,,1403,131,10,10,https://fakestoreapi.com/carts?limit=5,562,0,0
+1684438846785,568,Get all carts,200,OK,Thread Group 1-7,text,true,,1639,123,10,10,https://fakestoreapi.com/carts,568,0,0
+1684438846962,401,Get all categories,200,OK,Thread Group 1-10,text,true,,761,137,10,10,https://fakestoreapi.com/products/categories,401,0,0
+1684438846878,559,Get carts in a date range,200,OK,Thread Group 1-5,text,true,,1639,163,10,10,https://fakestoreapi.com/carts?startdate=2019-12-10&enddate=2020-10-10,559,0,0
+1684438847012,563,Get all users,200,OK,Thread Group 1-2,text,true,,3684,123,10,10,https://fakestoreapi.com/users,563,0,0
+1684438847175,403,Add a new cart,200,OK,Thread Group 1-4,text,true,,815,422,10,10,https://fakestoreapi.com/carts,403,0,0
+1684438847299,398,Update a product,200,OK,Thread Group 1-9,text,true,,828,356,10,10,https://fakestoreapi.com/products/7,398,0,0
+1684438847215,566,Get a single user,200,OK,Thread Group 1-1,text,true,,985,125,10,10,https://fakestoreapi.com/users/1,566,0,0
+1684438847229,565,Delete a cart,200,OK,Thread Group 1-3,text,true,,840,211,10,10,https://fakestoreapi.com/carts/6,565,0,0
+1684438847266,548,Delete a product,200,OK,Thread Group 1-8,text,true,,1106,214,10,10,https://fakestoreapi.com/products/6,548,0,0
+1684438847347,570,Sort results,200,OK,Thread Group 1-6,text,true,,1639,133,10,10,https://fakestoreapi.com/carts?sort=desc,570,0,0
+1684438847363,560,Get products in a specific category,200,OK,Thread Group 1-10,text,true,,2240,144,10,10,https://fakestoreapi.com/products/category/jewelery,560,0,0
+1684438847354,577,Get a single cart,200,OK,Thread Group 1-7,text,true,,834,125,10,10,https://fakestoreapi.com/carts/5,577,0,0
+1684438847579,402,Update a cart,200,OK,Thread Group 1-4,text,true,,808,423,10,10,https://fakestoreapi.com/carts/7,402,0,0
+1684438847437,570,Get user carts,200,OK,Thread Group 1-5,text,true,,840,130,10,10,https://fakestoreapi.com/carts/user/2,570,0,0
+1684438847698,394,Update a product - patch,200,OK,Thread Group 1-9,text,true,,828,358,10,10,https://fakestoreapi.com/products/7,394,0,0
+1684438847575,566,Get a single user,200,OK,Thread Group 1-2,text,true,,987,125,10,10,https://fakestoreapi.com/users/1,566,0,0
+1684438847924,400,Add new product,200,OK,Thread Group 1-10,text,true,,832,358,10,10,https://fakestoreapi.com/products,400,0,0
+1684438847781,567,Limit results,200,OK,Thread Group 1-1,text,true,,2188,131,10,10,https://fakestoreapi.com/users?limit=5,567,0,0
+1684438847794,555,Get all users,200,OK,Thread Group 1-3,text,true,,3694,123,10,10,https://fakestoreapi.com/users,555,0,0
+1684438847815,560,Get all carts,200,OK,Thread Group 1-8,text,true,,1637,123,10,10,https://fakestoreapi.com/carts,560,0,0
+1684438847981,400,Update a cart - patch,200,OK,Thread Group 1-4,text,true,,808,425,10,10,https://fakestoreapi.com/carts/7,400,0,0
+1684438848007,395,Add a new cart,200,OK,Thread Group 1-5,text,true,,811,422,10,10,https://fakestoreapi.com/carts,395,0,0
+1684438847917,572,Get carts in a date range,200,OK,Thread Group 1-6,text,true,,1633,163,10,10,https://fakestoreapi.com/carts?startdate=2019-12-10&enddate=2020-10-10,572,0,0
+1684438847931,562,Limit results,200,OK,Thread Group 1-7,text,true,,1405,131,10,10,https://fakestoreapi.com/carts?limit=5,562,0,0
+1684438848092,569,Delete a product,200,OK,Thread Group 1-9,text,true,,1100,214,10,10,https://fakestoreapi.com/products/6,569,0,0
+1684438848141,551,Limit results,200,OK,Thread Group 1-2,text,true,,2186,131,10,10,https://fakestoreapi.com/users?limit=5,551,0,0
+1684438848324,403,Update a product,200,OK,Thread Group 1-10,text,true,,826,356,10,10,https://fakestoreapi.com/products/7,402,0,0
+1684438848402,390,Update a cart,200,OK,Thread Group 1-5,text,true,,804,423,10,10,https://fakestoreapi.com/carts/7,390,0,0
+1684438848349,567,Sort results,200,OK,Thread Group 1-1,text,true,,3690,133,10,10,https://fakestoreapi.com/users?sort=desc,567,0,0
+1684438848349,571,Get a single user,200,OK,Thread Group 1-3,text,true,,989,125,10,10,https://fakestoreapi.com/users/1,571,0,0
+1684438848376,563,Get a single cart,200,OK,Thread Group 1-8,text,true,,836,125,10,10,https://fakestoreapi.com/carts/5,563,0,0
+1684438848381,565,Delete a cart,200,OK,Thread Group 1-4,text,true,,832,211,10,10,https://fakestoreapi.com/carts/6,565,0,0
+1684438848489,563,Get user carts,200,OK,Thread Group 1-6,text,true,,836,130,10,10,https://fakestoreapi.com/carts/user/2,563,0,0
+1684438848494,576,Sort results,200,OK,Thread Group 1-7,text,true,,1639,133,10,10,https://fakestoreapi.com/carts?sort=desc,576,0,0
+1684438848727,403,Update a product - patch,200,OK,Thread Group 1-10,text,true,,828,358,10,10,https://fakestoreapi.com/products/7,403,0,0
+1684438848793,390,Update a cart - patch,200,OK,Thread Group 1-5,text,true,,804,425,10,10,https://fakestoreapi.com/carts/7,390,0,0
+1684438848661,566,Get all carts,200,OK,Thread Group 1-9,text,true,,1631,123,10,10,https://fakestoreapi.com/carts,566,0,0
+1684438848692,556,Sort results,200,OK,Thread Group 1-2,text,true,,3690,133,10,10,https://fakestoreapi.com/users?sort=desc,556,0,0
+1684438849052,394,Add a new cart,200,OK,Thread Group 1-6,text,true,,805,422,10,10,https://fakestoreapi.com/carts,394,0,0
+1684438848917,561,Add a new user,200,OK,Thread Group 1-1,text,true,,705,638,10,10,https://fakestoreapi.com/users,561,0,0
+1684438848920,577,Limit results,200,OK,Thread Group 1-3,text,true,,2188,131,10,10,https://fakestoreapi.com/users?limit=5,577,0,0
+1684438848939,576,Limit results,200,OK,Thread Group 1-8,text,true,,1393,131,10,10,https://fakestoreapi.com/carts?limit=5,575,0,0
+1684438848946,598,Get all users,200,OK,Thread Group 1-4,text,true,,3690,123,10,10,https://fakestoreapi.com/users,598,0,0
+1684438849070,570,Get carts in a date range,200,OK,Thread Group 1-7,text,true,,1635,163,10,10,https://fakestoreapi.com/carts?startdate=2019-12-10&enddate=2020-10-10,570,0,0
+1684438849183,563,Delete a cart,200,OK,Thread Group 1-5,text,true,,828,211,10,10,https://fakestoreapi.com/carts/6,563,0,0
+1684438849228,569,Get a single cart,200,OK,Thread Group 1-9,text,true,,832,125,10,10,https://fakestoreapi.com/carts/5,569,0,0
+1684438849248,558,Add a new user,200,OK,Thread Group 1-2,text,true,,706,638,10,10,https://fakestoreapi.com/users,558,0,0
+1684438849479,395,Update a users,200,OK,Thread Group 1-1,text,true,,984,639,10,10,https://fakestoreapi.com/users/7,395,0,0
+1684438849447,601,Update a cart,200,OK,Thread Group 1-6,text,true,,808,423,10,10,https://fakestoreapi.com/carts/7,600,0,0
+1684438849498,565,Sort results,200,OK,Thread Group 1-3,text,true,,3696,133,10,10,https://fakestoreapi.com/users?sort=desc,565,0,0
+1684438849515,569,Sort results,200,OK,Thread Group 1-8,text,true,,1639,133,10,10,https://fakestoreapi.com/carts?sort=desc,569,0,0
+1684438849544,564,Get a single user,200,OK,Thread Group 1-4,text,true,,985,125,10,10,https://fakestoreapi.com/users/1,564,0,0
+1684438849806,397,Update a users,200,OK,Thread Group 1-2,text,true,,976,639,10,10,https://fakestoreapi.com/users/7,397,0,0
+1684438849640,570,Get user carts,200,OK,Thread Group 1-7,text,true,,836,130,10,10,https://fakestoreapi.com/carts/user/2,570,0,0
+1684438849875,392,Update a users - patch,200,OK,Thread Group 1-1,text,true,,976,641,10,10,https://fakestoreapi.com/users/7,392,0,0
+1684438849746,553,Get all users,200,OK,Thread Group 1-5,text,true,,3690,123,10,10,https://fakestoreapi.com/users,553,0,0
+1684438849797,587,Limit results,200,OK,Thread Group 1-9,text,true,,1397,131,10,10,https://fakestoreapi.com/carts?limit=5,587,0,0
+1684438849131,1260,Delete a product,200,OK,Thread Group 1-10,text,true,,1100,214,10,10,https://fakestoreapi.com/products/6,1259,0,0
+1684438850048,395,Update a cart - patch,200,OK,Thread Group 1-6,text,true,,810,425,10,10,https://fakestoreapi.com/carts/7,395,0,0
+1684438850204,394,Update a users - patch,200,OK,Thread Group 1-2,text,true,,976,641,10,10,https://fakestoreapi.com/users/7,394,0,0
+1684438850210,402,Add a new cart,200,OK,Thread Group 1-7,text,true,,807,422,10,10,https://fakestoreapi.com/carts,402,0,0
+1684438850063,565,Add a new user,200,OK,Thread Group 1-3,text,true,,706,638,10,10,https://fakestoreapi.com/users,565,0,0
+1684438850084,559,Get carts in a date range,200,OK,Thread Group 1-8,text,true,,1633,163,10,10,https://fakestoreapi.com/carts?startdate=2019-12-10&enddate=2020-10-10,559,0,0
+1684438850108,574,Limit results,200,OK,Thread Group 1-4,text,true,,2200,131,10,10,https://fakestoreapi.com/users?limit=5,574,0,0
+1684438850268,574,Delete a user,200,OK,Thread Group 1-1,text,true,,999,211,10,10,https://fakestoreapi.com/users/6,574,0,0
+1684438850299,555,Get a single user,200,OK,Thread Group 1-5,text,true,,991,125,10,10,https://fakestoreapi.com/users/1,555,0,0
+1684438850384,559,Sort results,200,OK,Thread Group 1-9,text,true,,1647,133,10,10,https://fakestoreapi.com/carts?sort=desc,559,0,0
+1684438850391,575,Get all carts,200,OK,Thread Group 1-10,text,true,,1637,123,10,10,https://fakestoreapi.com/carts,575,0,0
+1684438850443,569,Delete a cart,200,OK,Thread Group 1-6,text,true,,836,211,10,10,https://fakestoreapi.com/carts/6,569,0,0
+1684438850612,408,Update a cart,200,OK,Thread Group 1-7,text,true,,812,423,10,10,https://fakestoreapi.com/carts/7,408,0,0
+1684438850628,395,Update a users,200,OK,Thread Group 1-3,text,true,,974,639,10,10,https://fakestoreapi.com/users/7,395,0,0
+1684438850598,570,Delete a user,200,OK,Thread Group 1-2,text,true,,1013,211,10,10,https://fakestoreapi.com/users/6,570,0,0
+1684438850643,561,Get user carts,200,OK,Thread Group 1-8,text,true,,832,130,10,10,https://fakestoreapi.com/carts/user/2,561,0,0
+1684438850682,592,Sort results,200,OK,Thread Group 1-4,text,true,,3694,133,10,10,https://fakestoreapi.com/users?sort=desc,592,0,0
+1684438850842,564,User login,200,OK,Thread Group 1-1,text,true,,850,253,10,10,https://fakestoreapi.com/auth/login,564,0,0
+1684438850854,562,Limit results,200,OK,Thread Group 1-5,text,true,,2182,131,9,9,https://fakestoreapi.com/users?limit=5,562,0,0
+1684438851024,398,Update a users - patch,200,OK,Thread Group 1-3,text,true,,972,641,9,9,https://fakestoreapi.com/users/7,398,0,0
+1684438851020,402,Update a cart - patch,200,OK,Thread Group 1-7,text,true,,814,425,9,9,https://fakestoreapi.com/carts/7,402,0,0
+1684438850943,564,Get carts in a date range,200,OK,Thread Group 1-9,text,true,,1637,163,9,9,https://fakestoreapi.com/carts?startdate=2019-12-10&enddate=2020-10-10,564,0,0
+1684438850966,588,Get a single cart,200,OK,Thread Group 1-10,text,true,,828,125,9,9,https://fakestoreapi.com/carts/5,588,0,0
+1684438851013,563,Get all users,200,OK,Thread Group 1-6,text,true,,3694,123,9,9,https://fakestoreapi.com/users,563,0,0
+1684438851204,394,Add a new cart,200,OK,Thread Group 1-8,text,true,,809,422,9,9,https://fakestoreapi.com/carts,394,0,0
+1684438851168,562,User login,200,OK,Thread Group 1-2,text,true,,858,253,9,9,https://fakestoreapi.com/auth/login,562,0,0
+1684438851274,567,Add a new user,200,OK,Thread Group 1-4,text,true,,700,638,8,8,https://fakestoreapi.com/users,567,0,0
+1684438851417,554,Sort results,200,OK,Thread Group 1-5,text,true,,3692,133,8,8,https://fakestoreapi.com/users?sort=desc,554,0,0
+1684438851422,564,Delete a user,200,OK,Thread Group 1-3,text,true,,1003,211,8,8,https://fakestoreapi.com/users/6,564,0,0
+1684438851422,566,Delete a cart,200,OK,Thread Group 1-7,text,true,,834,211,8,8,https://fakestoreapi.com/carts/6,566,0,0
+1684438851598,391,Update a cart,200,OK,Thread Group 1-8,text,true,,816,423,8,8,https://fakestoreapi.com/carts/7,391,0,0
+1684438851507,576,Get user carts,200,OK,Thread Group 1-9,text,true,,834,130,8,8,https://fakestoreapi.com/carts/user/2,576,0,0
+1684438851555,569,Limit results,200,OK,Thread Group 1-10,text,true,,1399,131,8,8,https://fakestoreapi.com/carts?limit=5,568,0,0
+1684438851576,564,Get a single user,200,OK,Thread Group 1-6,text,true,,987,125,8,8,https://fakestoreapi.com/users/1,564,0,0
+1684438851842,416,Update a users,200,OK,Thread Group 1-4,text,true,,976,639,8,8,https://fakestoreapi.com/users/7,416,0,0
+1684438851989,387,Update a cart - patch,200,OK,Thread Group 1-8,text,true,,814,425,8,8,https://fakestoreapi.com/carts/7,387,0,0
+1684438852084,396,Add a new cart,200,OK,Thread Group 1-9,text,true,,805,422,8,8,https://fakestoreapi.com/carts,396,0,0
+1684438851971,566,Add a new user,200,OK,Thread Group 1-5,text,true,,705,638,8,8,https://fakestoreapi.com/users,566,0,0
+1684438851988,560,Get all users,200,OK,Thread Group 1-7,text,true,,3686,123,8,8,https://fakestoreapi.com/users,560,0,0
+1684438851986,562,User login,200,OK,Thread Group 1-3,text,true,,856,253,8,8,https://fakestoreapi.com/auth/login,562,0,0
+1684438852258,404,Update a users - patch,200,OK,Thread Group 1-4,text,true,,984,641,7,7,https://fakestoreapi.com/users/7,404,0,0
+1684438852124,558,Sort results,200,OK,Thread Group 1-10,text,true,,1637,133,7,7,https://fakestoreapi.com/carts?sort=desc,558,0,0
+1684438852141,557,Limit results,200,OK,Thread Group 1-6,text,true,,2188,131,7,7,https://fakestoreapi.com/users?limit=5,557,0,0
+1684438852480,404,Update a cart,200,OK,Thread Group 1-9,text,true,,814,423,7,7,https://fakestoreapi.com/carts/7,404,0,0
+1684438852537,389,Update a users,200,OK,Thread Group 1-5,text,true,,972,639,7,7,https://fakestoreapi.com/users/7,389,0,0
+1684438852376,572,Delete a cart,200,OK,Thread Group 1-8,text,true,,834,211,7,7,https://fakestoreapi.com/carts/6,572,0,0
+1684438852548,561,Get a single user,200,OK,Thread Group 1-7,text,true,,997,125,7,7,https://fakestoreapi.com/users/1,561,0,0
+1684438852682,547,Get carts in a date range,200,OK,Thread Group 1-10,text,true,,1637,163,7,7,https://fakestoreapi.com/carts?startdate=2019-12-10&enddate=2020-10-10,547,0,0
+1684438852662,571,Delete a user,200,OK,Thread Group 1-4,text,true,,999,211,7,7,https://fakestoreapi.com/users/6,571,0,0
+1684438852698,578,Sort results,200,OK,Thread Group 1-6,text,true,,3692,133,7,7,https://fakestoreapi.com/users?sort=desc,578,0,0
+1684438852884,395,Update a cart - patch,200,OK,Thread Group 1-9,text,true,,816,425,7,7,https://fakestoreapi.com/carts/7,395,0,0
+1684438852926,394,Update a users - patch,200,OK,Thread Group 1-5,text,true,,974,641,7,7,https://fakestoreapi.com/users/7,394,0,0
+1684438852949,588,Get all users,200,OK,Thread Group 1-8,text,true,,3696,123,7,7,https://fakestoreapi.com/users,588,0,0
+1684438853109,562,Limit results,200,OK,Thread Group 1-7,text,true,,2184,131,7,7,https://fakestoreapi.com/users?limit=5,562,0,0
+1684438853233,558,User login,200,OK,Thread Group 1-4,text,true,,852,253,7,7,https://fakestoreapi.com/auth/login,558,0,0
+1684438853229,569,Get user carts,200,OK,Thread Group 1-10,text,true,,834,130,6,6,https://fakestoreapi.com/carts/user/2,569,0,0
+1684438853279,564,Delete a cart,200,OK,Thread Group 1-9,text,true,,832,211,6,6,https://fakestoreapi.com/carts/6,564,0,0
+1684438853276,568,Add a new user,200,OK,Thread Group 1-6,text,true,,702,638,6,6,https://fakestoreapi.com/users,568,0,0
+1684438853320,560,Delete a user,200,OK,Thread Group 1-5,text,true,,995,211,6,6,https://fakestoreapi.com/users/6,559,0,0
+1684438853537,555,Get a single user,200,OK,Thread Group 1-8,text,true,,997,125,6,6,https://fakestoreapi.com/users/1,555,0,0
+1684438853798,398,Add a new cart,200,OK,Thread Group 1-10,text,true,,803,422,6,6,https://fakestoreapi.com/carts,397,0,0
+1684438853672,565,Sort results,200,OK,Thread Group 1-7,text,true,,3690,133,6,6,https://fakestoreapi.com/users?sort=desc,565,0,0
+1684438853844,401,Update a users,200,OK,Thread Group 1-6,text,true,,972,639,6,6,https://fakestoreapi.com/users/7,401,0,0
+1684438853844,572,Get all users,200,OK,Thread Group 1-9,text,true,,3692,123,6,6,https://fakestoreapi.com/users,572,0,0
+1684438853880,553,User login,200,OK,Thread Group 1-5,text,true,,852,253,6,6,https://fakestoreapi.com/auth/login,553,0,0
+1684438854196,389,Update a cart,200,OK,Thread Group 1-10,text,true,,814,423,5,5,https://fakestoreapi.com/carts/7,389,0,0
+1684438854245,402,Update a users - patch,200,OK,Thread Group 1-6,text,true,,978,641,5,5,https://fakestoreapi.com/users/7,402,0,0
+1684438854093,566,Limit results,200,OK,Thread Group 1-8,text,true,,2196,131,5,5,https://fakestoreapi.com/users?limit=5,566,0,0
+1684438854237,560,Add a new user,200,OK,Thread Group 1-7,text,true,,705,638,5,5,https://fakestoreapi.com/users,560,0,0
+1684438854586,394,Update a cart - patch,200,OK,Thread Group 1-10,text,true,,810,425,5,5,https://fakestoreapi.com/carts/7,394,0,0
+1684438854416,569,Get a single user,200,OK,Thread Group 1-9,text,true,,989,125,5,5,https://fakestoreapi.com/users/1,569,0,0
+1684438854797,408,Update a users,200,OK,Thread Group 1-7,text,true,,974,639,5,5,https://fakestoreapi.com/users/7,408,0,0
+1684438854659,559,Sort results,200,OK,Thread Group 1-8,text,true,,3706,133,5,5,https://fakestoreapi.com/users?sort=desc,559,0,0
+1684438854648,582,Delete a user,200,OK,Thread Group 1-6,text,true,,999,211,5,5,https://fakestoreapi.com/users/6,582,0,0
+1684438854980,569,Delete a cart,200,OK,Thread Group 1-10,text,true,,836,211,5,5,https://fakestoreapi.com/carts/6,569,0,0
+1684438854985,567,Limit results,200,OK,Thread Group 1-9,text,true,,2188,131,5,5,https://fakestoreapi.com/users?limit=5,567,0,0
+1684438855205,391,Update a users - patch,200,OK,Thread Group 1-7,text,true,,978,641,5,5,https://fakestoreapi.com/users/7,391,0,0
+1684438855218,550,Add a new user,200,OK,Thread Group 1-8,text,true,,707,638,5,5,https://fakestoreapi.com/users,550,0,0
+1684438855230,550,User login,200,OK,Thread Group 1-6,text,true,,850,253,5,5,https://fakestoreapi.com/auth/login,550,0,0
+1684438855550,558,Get all users,200,OK,Thread Group 1-10,text,true,,3688,123,4,4,https://fakestoreapi.com/users,558,0,0
+1684438855552,571,Sort results,200,OK,Thread Group 1-9,text,true,,3702,133,4,4,https://fakestoreapi.com/users?sort=desc,571,0,0
+1684438855597,574,Delete a user,200,OK,Thread Group 1-7,text,true,,1003,211,4,4,https://fakestoreapi.com/users/6,574,0,0
+1684438855769,404,Update a users,200,OK,Thread Group 1-8,text,true,,982,639,4,4,https://fakestoreapi.com/users/7,404,0,0
+1684438856174,389,Update a users - patch,200,OK,Thread Group 1-8,text,true,,970,641,4,4,https://fakestoreapi.com/users/7,389,0,0
+1684438856109,560,Get a single user,200,OK,Thread Group 1-10,text,true,,991,125,4,4,https://fakestoreapi.com/users/1,560,0,0
+1684438856124,555,Add a new user,200,OK,Thread Group 1-9,text,true,,703,638,4,4,https://fakestoreapi.com/users,555,0,0
+1684438856171,568,User login,200,OK,Thread Group 1-7,text,true,,858,253,4,4,https://fakestoreapi.com/auth/login,568,0,0
+1684438856680,395,Update a users,200,OK,Thread Group 1-9,text,true,,972,639,3,3,https://fakestoreapi.com/users/7,395,0,0
+1684438856563,562,Delete a user,200,OK,Thread Group 1-8,text,true,,999,211,3,3,https://fakestoreapi.com/users/6,562,0,0
+1684438856669,574,Limit results,200,OK,Thread Group 1-10,text,true,,2192,131,3,3,https://fakestoreapi.com/users?limit=5,574,0,0
+1684438857075,390,Update a users - patch,200,OK,Thread Group 1-9,text,true,,974,641,3,3,https://fakestoreapi.com/users/7,390,0,0
+1684438857125,556,User login,200,OK,Thread Group 1-8,text,true,,856,253,3,3,https://fakestoreapi.com/auth/login,556,0,0
+1684438857243,607,Sort results,200,OK,Thread Group 1-10,text,true,,3690,133,2,2,https://fakestoreapi.com/users?sort=desc,607,0,0
+1684438857466,570,Delete a user,200,OK,Thread Group 1-9,text,true,,1007,211,2,2,https://fakestoreapi.com/users/6,570,0,0
+1684438857850,561,Add a new user,200,OK,Thread Group 1-10,text,true,,715,638,2,2,https://fakestoreapi.com/users,561,0,0
+1684438858036,566,User login,200,OK,Thread Group 1-9,text,true,,860,253,2,2,https://fakestoreapi.com/auth/login,566,0,0
+1684438858411,393,Update a users,200,OK,Thread Group 1-10,text,true,,972,639,1,1,https://fakestoreapi.com/users/7,393,0,0
+1684438858804,613,Update a users - patch,200,OK,Thread Group 1-10,text,true,,968,641,1,1,https://fakestoreapi.com/users/7,613,0,0
+1684438859417,552,Delete a user,200,OK,Thread Group 1-10,text,true,,1003,211,1,1,https://fakestoreapi.com/users/6,552,0,0
+1684438859969,560,User login,200,OK,Thread Group 1-10,text,true,,848,253,1,1,https://fakestoreapi.com/auth/login,560,0,0
