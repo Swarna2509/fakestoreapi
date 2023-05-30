@@ -23,3 +23,7 @@ While executed 340 concurrent request, found 1 request got connection timeout an
 Summary: Server can handle almost concurrent 8700 API call with almost zero (0) error rate.
 
 Report :
+![Screenshot (331)](https://github.com/Swarna2509/Jmeter_bookingapi/assets/72212832/bf8942db-9b9c-425f-b272-41635c861bd2)
+![Screenshot (332)](https://github.com/Swarna2509/Jmeter_bookingapi/assets/72212832/a4050c9e-c713-468d-9701-0aeb5ed4eb8c)
+![Screenshot (333)](https://github.com/Swarna2509/Jmeter_bookingapi/assets/72212832/e003f812-0780-46b7-a457-8a1e1f861304)
+
